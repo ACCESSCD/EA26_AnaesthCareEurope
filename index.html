@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anaesthesia practice for caesarean delivery in Europe</title>
+  <style>
+    :root {
+      --navy: #233187;
+      --navy-dark: #1a2466;
+      --peach: #FFD1B0;
+      --peach-mid: #f0a87a;
+      --bg: #f7f4f1;
+      --card-shadow: 0 2px 12px rgba(35,49,135,0.09);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg);
+      color: #1c1c2e;
+      line-height: 1.6;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--navy);
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1.5rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header h1 {
+      font-size: clamp(1.4rem, 3vw, 2.1rem);
+      font-weight: 700;
+      line-height: 1.3;
+      max-width: 820px;
+      margin: 0 auto 0.6rem;
+    }
+
+    header .presenter {
+      color: var(--peach);
+      font-style: italic;
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      margin-bottom: 1.8rem;
+    }
+
+    .skyline-wrap {
+      width: 100%;
+      max-height: 160px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .skyline-wrap img {
+      width: 100%;
+      display: block;
+      opacity: 0.35;
+      filter: brightness(3);
+    }
+
+    /* ── MAIN CONTENT ── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+    }
+
+    .intro {
+      background: #fff;
+      border-left: 5px solid var(--peach-mid);
+      padding: 1rem 1.5rem;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 2.5rem;
+      font-size: 0.97rem;
+      color: #444;
+    }
+
+    .section-label {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.75rem;
+      color: var(--navy);
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+    }
+
+    /* ── CARDS ── */
+    .sources {
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: var(--card-shadow);
+      padding: 1.2rem 1.4rem;
+      display: flex;
+      gap: 1.2rem;
+      align-items: flex-start;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 20px rgba(35,49,135,0.15);
+    }
+
+    .card-num {
+      flex-shrink: 0;
+      width: 2rem;
+      height: 2rem;
+      background: var(--navy);
+      color: var(--peach);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-top: 0.1rem;
+    }
+
+    .card-body {
+      flex: 1;
+    }
+
+    .card-body h3 {
+      color: var(--navy);
+      font-size: 0.97rem;
+      margin-bottom: 0.35rem;
+      line-height: 1.4;
+    }
+
+    .card-body p {
+      color: #555;
+      font-size: 0.88rem;
+      line-height: 1.55;
+    }
+
+    .dl-btn {
+      flex-shrink: 0;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.45rem 1rem;
+      border-radius: 6px;
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      white-space: nowrap;
+      transition: background 0.2s;
+      align-self: center;
+    }
+
+    .dl-btn:hover { background: var(--navy-dark); }
+
+    .dl-btn svg {
+      width: 14px;
+      height: 14px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--navy);
+      color: var(--peach);
+      text-align: center;
+      padding: 1.4rem 1.5rem;
+      font-family: Arial, sans-serif;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 580px) {
+      .card { flex-wrap: wrap; }
+      .dl-btn { align-self: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Anaesthesia practice for caesarean delivery in Europe</h1>
+  <p class="presenter">Presented by Prof Carolyn Weiniger</p>
+  <div class="skyline-wrap">
+    <img src="Skyline.svg" alt="European city skyline">
+  </div>
+</header>
+
+<main>
+  <div class="intro">
+    Key references supporting the evidence base for anaesthetic practice in caesarean delivery.
+    Click <strong>Download</strong> on any entry to open or save the source document.
+  </div>
+
+  <p class="section-label">Source Documents</p>
+
+  <div class="sources">
+
+    <div class="card">
+      <div class="card-num">1</div>
+      <div class="card-body">
+        <h3>40-Year Workforce Survey Update</h3>
+        <p>A longitudinal survey tracking four decades of change in the anaesthesia workforce, examining trends in staffing levels, subspecialty distribution, and the growing role of obstetric anaesthesia across Europe.</p>
+      </div>
+      <a class="dl-btn" href="40%20year%20workforce%20survey%20update.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">2</div>
+      <div class="card-body">
+        <h3>Kinsella (2008) — Regional Anaesthesia Failure in 5,080 Caesarean Sections</h3>
+        <p>A landmark prospective audit documenting the incidence and risk factors for regional anaesthesia failure during caesarean delivery, providing an essential benchmark for acceptable failure rates in obstetric practice.</p>
+      </div>
+      <a class="dl-btn" href="Anaesthesia%20-%202008%20-%20Kinsella%20-%20A%20prospective%20audit%20of%20regional%20anaesthesia%20failure%20in%205080%20Caesarean%20sections.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">3</div>
+      <div class="card-body">
+        <h3>Patel (2022) — Inadequate Neuraxial Anaesthesia in Elective Caesarean Section</h3>
+        <p>An analysis of the incidence and patient-level factors associated with inadequate neuraxial block during elective caesarean section, with implications for pre-operative assessment and intraoperative rescue strategies.</p>
+      </div>
+      <a class="dl-btn" href="Anaesthesia%20-%202022%20-%20Patel%20-%20Inadequate%20neuraxial%20anaesthesia%20in%20patients%20undergoing%20elective%20caesarean%20section%20%20a.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">4</div>
+      <div class="card-body">
+        <h3>Are We Finally Tackling the Issue of Pain During Caesarean Section?</h3>
+        <p>A narrative review evaluating progress in recognising and preventing intraoperative pain under neuraxial anaesthesia, covering pharmacological adjuncts, block assessment methods, and patient-reported outcomes.</p>
+      </div>
+      <a class="dl-btn" href="Are%20we%20finally%20tackling%20the%20issue%20of%20pain%20during%20cesarean%20section.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">5</div>
+      <div class="card-body">
+        <h3>Charles et al. — Intraoperative Pain During Caesarean Section (<em>Anesthesiology</em>, July 2024)</h3>
+        <p>A prospective study quantifying the severity and patient experience of intraoperative pain during caesarean section under neuraxial anaesthesia, with patient-centred outcome measures and identification of modifiable risk factors.</p>
+      </div>
+      <a class="dl-btn" href="Charles%20intraoperative%20pain%20Anesthesiology%20Jul%202024.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">6</div>
+      <div class="card-body">
+        <h3>Sultan &amp; Landau — Editorial (<em>IJOA</em>, 2025)</h3>
+        <p>An invited editorial in the International Journal of Obstetric Anesthesia discussing current gaps in obstetric anaesthesia quality, the burden of inadequate pain management, and priorities for the next decade of practice improvement in Europe.</p>
+      </div>
+      <a class="dl-btn" href="editorial%20IJOA%20sultan%20Landau%202025.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">7</div>
+      <div class="card-body">
+        <h3>Guglielminotti — Avoidable General Anaesthesia for Caesarean Delivery</h3>
+        <p>An investigation into preventable conversions to general anaesthesia for caesarean delivery, identifying system-level and clinical contributors and proposing evidence-based strategies to reduce unnecessary GA exposure.</p>
+      </div>
+      <a class="dl-btn" href="Guglielminotti%20avoidable%20GA.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">8</div>
+      <div class="card-body">
+        <h3>Juang (2017) — National General Anaesthesia Rates for Caesarean Delivery, USA</h3>
+        <p>A national-level analysis of trends in general anaesthesia use for caesarean delivery across the United States, highlighting disparities by hospital type and geography, and benchmarking opportunities for improving neuraxial uptake.</p>
+      </div>
+      <a class="dl-btn" href="Juang%202017%20national%20GA%20rates%20USA.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">9</div>
+      <div class="card-body">
+        <h3>O'Carroll et al. — Incidence of Pain During Caesarean Section (<em>Anesthesiology</em>, 2025)</h3>
+        <p>A large prospective multicentre study reporting the real-world incidence of intraoperative pain during caesarean section under neuraxial anaesthesia, with risk stratification and recommendations for clinical practice and quality indicators.</p>
+      </div>
+      <a class="dl-btn" href="o%20carroll%20incidence%20of%20pain%20Anesthesiology%202025.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">10</div>
+      <div class="card-body">
+        <h3>RCOG Guideline — Caesarean Section</h3>
+        <p>The Royal College of Obstetricians and Gynaecologists evidence-based guideline covering indications, surgical technique, anaesthetic considerations, and postoperative care for caesarean delivery, serving as a foundational reference for UK and European practice.</p>
+      </div>
+      <a class="dl-btn" href="RCOG%20pdf.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+    <div class="card">
+      <div class="card-num">11</div>
+      <div class="card-body">
+        <h3>Shibli (RCOA) — Survey of Anaesthetic Techniques for Caesarean Section</h3>
+        <p>A Royal College of Anaesthetists-commissioned national survey of the anaesthetic techniques used for caesarean delivery across the UK, providing a snapshot of practice variation and identifying targets for standardisation and quality improvement.</p>
+      </div>
+      <a class="dl-btn" href="Shibli%20RCOA%20source%20A%20survey%20of%20anaesthetic%20techniques%20used%20for%20caesarean%20section%20in.pdf" download>
+        <svg viewBox="0 0 24 24"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+        Download
+      </a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  EA26 &mdash; Anaesthesia Care Europe &nbsp;|&nbsp; Prof Carolyn Weiniger
+</footer>
+
+</body>
+</html>
