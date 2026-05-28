@@ -1,33 +1,13 @@
 [
   {
-    "first": "Jens",
-    "last": "Meier",
-    "type": "",
-    "track": "Transfusion",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 2
-  },
-  {
-    "first": "Ron",
-    "last": "George",
-    "type": "",
-    "track": "Obstetric",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 1
-  },
-  {
     "first": "Ruth",
     "last": "Landau",
     "type": "Faculty Invited Speaker",
-    "track": "Obstetric",
+    "track": "Pain",
     "status": "Confirmed",
     "bio": "Yes",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Guasch",
@@ -37,7 +17,7 @@
     "status": "Confirmed",
     "bio": "Yes",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Richebe",
@@ -57,16 +37,6 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 3
-  },
-  {
-    "first": "Itai",
-    "last": "Bentov",
-    "type": "",
-    "track": "Geriatrics",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
     "tasks": 2
   },
   {
@@ -74,16 +44,6 @@
     "last": "Ceyda Meço",
     "type": "Faculty Invited Speaker",
     "track": "Geriatrics",
-    "status": "Confirmed",
-    "bio": "",
-    "photo": "",
-    "tasks": 1
-  },
-  {
-    "first": "Matthias",
-    "last": "Kreuzer",
-    "type": "Faculty Invited Speaker",
-    "track": "EEG sadna",
     "status": "Confirmed",
     "bio": "",
     "photo": "",
@@ -107,7 +67,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Eva",
@@ -117,7 +77,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Nadav",
@@ -140,11 +100,11 @@
     "tasks": 1
   },
   {
-    "first": "Joana",
-    "last": "Berger",
-    "type": "Faculty Invited Speaker",
-    "track": "Education",
-    "status": "Confirmed",
+    "first": "Anthony",
+    "last": "R. Absalom",
+    "type": "",
+    "track": "",
+    "status": "Pending",
     "bio": "",
     "photo": "",
     "tasks": 0
@@ -157,7 +117,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 3
   },
   {
     "first": "Carolina",
@@ -167,7 +127,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Maurizio",
@@ -187,7 +147,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 3
+    "tasks": 2
   },
   {
     "first": "Mervyn",
@@ -237,6 +197,16 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
+    "tasks": 1
+  },
+  {
+    "first": "Jens",
+    "last": "Meier",
+    "type": "Faculty Invited Speaker",
+    "track": "Transfusion",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
     "tasks": 2
   },
   {
@@ -258,6 +228,16 @@
     "bio": "",
     "photo": "",
     "tasks": 1
+  },
+  {
+    "first": "Steffen",
+    "last": "Rex",
+    "type": "Faculty Invited Speaker",
+    "track": "Cardiac anesthesia",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 4
   },
   {
     "first": "Andrea",
@@ -297,7 +277,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Daniela",
@@ -357,7 +337,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Joel",
@@ -367,7 +347,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Bernhard",
@@ -377,7 +357,17 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 0
+  },
+  {
+    "first": "Eleni",
+    "last": "Moka",
+    "type": "Symposium Keynote Guest",
+    "track": "Regional",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
   },
   {
     "first": "Gabriella",
@@ -397,7 +387,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 2
   },
   {
     "first": "Misha",
@@ -430,16 +420,6 @@
     "tasks": 1
   },
   {
-    "first": "Steffen",
-    "last": "Rex",
-    "type": "",
-    "track": "",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 4
-  },
-  {
     "first": "Michael",
     "last": "O'Connor",
     "type": "Faculty Invited Speaker",
@@ -457,7 +437,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Carolina",
@@ -477,7 +457,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Michaela",
@@ -490,8 +470,38 @@
     "tasks": 2
   },
   {
+    "first": "Ron",
+    "last": "George",
+    "type": "Faculty Invited Speaker",
+    "track": "",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 1
+  },
+  {
+    "first": "Itay",
+    "last": "Bentov",
+    "type": "Faculty Invited Speaker",
+    "track": "",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 1
+  },
+  {
     "first": "Jake",
     "last": "Beilin",
+    "type": "WAIT",
+    "track": "",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
+    "first": "Meg",
+    "last": "Rosenblatt",
     "type": "WAIT",
     "track": "",
     "status": "Pending",
@@ -510,10 +520,50 @@
     "tasks": 1
   },
   {
+    "first": "Vaida",
+    "last": "Sonia",
+    "type": "WAIT",
+    "track": "",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
     "first": "Jacob",
     "last": "Refael",
     "type": "WAIT",
     "track": "",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
+    "first": "David",
+    "last": "Polaner",
+    "type": "WAIT",
+    "track": "",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
+    "first": "Phillip",
+    "last": "Wagner",
+    "type": "WAIT",
+    "track": "Regional",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
+    "first": "Azocar",
+    "last": "Ruben",
+    "type": "WAIT",
+    "track": "Regional",
     "status": "Pending",
     "bio": "",
     "photo": "",
@@ -527,7 +577,17 @@
     "status": "Pending",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 3
+  },
+  {
+    "first": "Yaster",
+    "last": "Myron",
+    "type": "WAIT",
+    "track": "ISAAC 18",
+    "status": "Pending",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
   },
   {
     "first": "Luis",
