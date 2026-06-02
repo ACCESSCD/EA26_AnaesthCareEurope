@@ -13,8 +13,17 @@ from pathlib import Path
 
 import openpyxl
 
-FACULTY_PATH = Path(r'C:\Users\carol\PycharmProjects\ICISA information\Faculty list follow up.xlsx')
-PGM_PATH     = Path(r'C:\Users\carol\PycharmProjects\ICISA information\PGM ICISA 0305 (4).xlsx')
+_ICISA_DIR   = Path(r'C:\Users\carol\PycharmProjects\ICISA information')
+_candidates  = sorted(_ICISA_DIR.glob('Faculty list follow up*.xlsx'), key=lambda p: p.stat().st_mtime, reverse=True)
+if not _candidates:
+    raise FileNotFoundError(f'No Faculty list follow up*.xlsx found in {_ICISA_DIR}')
+FACULTY_PATH = _candidates[0]
+print(f'Using faculty file: {FACULTY_PATH.name}')
+_pgm_candidates = sorted(_ICISA_DIR.glob('PGM ICISA*.xlsx'), key=lambda p: p.stat().st_mtime, reverse=True)
+if not _pgm_candidates:
+    raise FileNotFoundError(f'No PGM ICISA*.xlsx found in {_ICISA_DIR}')
+PGM_PATH     = _pgm_candidates[0]
+print(f'Using programme file: {PGM_PATH.name}')
 OUTPUT_PATH  = Path(__file__).parent / 'speakers.json'
 
 EXCLUDE_TYPES = {'DO NOT INVITE'}
@@ -61,15 +70,34 @@ def get_status(row):
 
 # ── load speakers ────────────────────────────────────────────────────────────
 
+def _is_red_row(cells):
+    """Return True if any of the first 10 cells has a solid red background fill."""
+    for cell in cells[:10]:
+        fill = cell.fill
+        if fill and fill.fill_type == 'solid':
+            color = fill.fgColor
+            if color.type == 'rgb' and color.rgb not in ('00000000', 'FF000000'):
+                r = int(color.rgb[2:4], 16)
+                g = int(color.rgb[4:6], 16)
+                b = int(color.rgb[6:8], 16)
+                if r > 180 and g < 80 and b < 80:
+                    return True
+    return False
+
+
 def load_speakers():
     with warnings.catch_warnings():
         warnings.simplefilter('ignore')
-        wb = openpyxl.load_workbook(FACULTY_PATH, read_only=True, data_only=True)
+        # read_only=False required to access cell fill colours
+        wb = openpyxl.load_workbook(FACULTY_PATH, data_only=True)
 
     ws = wb['International Speakers']
     speakers, seen = [], set()
 
-    for row in ws.iter_rows(min_row=3, values_only=True):
+    for row_cells in ws.iter_rows(min_row=3):
+        if _is_red_row(row_cells):
+            continue
+        row = tuple(c.value for c in row_cells)
         first = clean(row[5])
         last  = clean(row[6])
         if not first or first == 'None':

@@ -127,7 +127,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 2
   },
   {
     "first": "Daniel",
@@ -350,16 +350,6 @@
     "tasks": 0
   },
   {
-    "first": "Eleni",
-    "last": "Moka",
-    "type": "Symposium Keynote Guest",
-    "track": "Regional",
-    "status": "Confirmed",
-    "bio": "",
-    "photo": "",
-    "tasks": 0
-  },
-  {
     "first": "Gabriella",
     "last": "Iohom",
     "type": "Faculty Invited Speaker",
@@ -367,7 +357,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Leo",
@@ -482,17 +472,7 @@
   {
     "first": "Jake",
     "last": "Beilin",
-    "type": "WAIT",
-    "track": "",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 0
-  },
-  {
-    "first": "Meg",
-    "last": "Rosenblatt",
-    "type": "WAIT",
+    "type": "",
     "track": "",
     "status": "Pending",
     "bio": "",
@@ -502,7 +482,7 @@
   {
     "first": "Joshua",
     "last": "Mincer",
-    "type": "WAIT",
+    "type": "",
     "track": "",
     "status": "Pending",
     "bio": "",
@@ -512,7 +492,7 @@
   {
     "first": "Vaida",
     "last": "Sonia",
-    "type": "WAIT",
+    "type": "",
     "track": "",
     "status": "Pending",
     "bio": "",
@@ -522,7 +502,7 @@
   {
     "first": "Jacob",
     "last": "Refael",
-    "type": "WAIT",
+    "type": "",
     "track": "",
     "status": "Pending",
     "bio": "",
@@ -532,28 +512,8 @@
   {
     "first": "David",
     "last": "Polaner",
-    "type": "WAIT",
+    "type": "",
     "track": "",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 0
-  },
-  {
-    "first": "Phillip",
-    "last": "Wagner",
-    "type": "WAIT",
-    "track": "Regional",
-    "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 0
-  },
-  {
-    "first": "Azocar",
-    "last": "Ruben",
-    "type": "WAIT",
-    "track": "Regional",
     "status": "Pending",
     "bio": "",
     "photo": "",
@@ -572,7 +532,7 @@
   {
     "first": "Yaster",
     "last": "Myron",
-    "type": "WAIT",
+    "type": "",
     "track": "ISAAC 18",
     "status": "Pending",
     "bio": "",
@@ -582,17 +542,17 @@
   {
     "first": "Luis",
     "last": "Alberto Rodriguez Linares",
-    "type": "WAIT",
+    "type": "",
     "track": "POCUS",
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 0
+    "tasks": 1
   },
   {
     "first": "Rudin",
     "last": "Domi",
-    "type": "WAIT",
+    "type": "",
     "track": "TBC",
     "status": "Confirmed",
     "bio": "",
