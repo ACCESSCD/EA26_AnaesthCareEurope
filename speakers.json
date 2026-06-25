@@ -7,7 +7,7 @@
     "status": "Confirmed",
     "bio": "Yes",
     "photo": "",
-    "tasks": 1
+    "tasks": 2
   },
   {
     "first": "Guasch",
@@ -17,23 +17,13 @@
     "status": "Confirmed",
     "bio": "Yes",
     "photo": "",
-    "tasks": 0
+    "tasks": 1
   },
   {
     "first": "Richebe",
     "last": "Philippe",
     "type": "Faculty Invited Speaker",
     "track": "Pain",
-    "status": "Confirmed",
-    "bio": "",
-    "photo": "",
-    "tasks": 2
-  },
-  {
-    "first": "Miles",
-    "last": "Berger",
-    "type": "Faculty Invited Speaker",
-    "track": "Delirium/PostEEG",
     "status": "Confirmed",
     "bio": "",
     "photo": "",
@@ -87,7 +77,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Sara",
@@ -127,7 +117,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Daniel",
@@ -177,7 +167,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 3
+    "tasks": 4
   },
   {
     "first": "Arash",
@@ -187,17 +177,17 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 2
   },
   {
     "first": "Jens",
     "last": "Meier",
     "type": "Faculty Invited Speaker",
     "track": "Transfusion",
-    "status": "Pending",
+    "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Robina",
@@ -207,7 +197,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Mahmood",
@@ -217,7 +207,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Steffen",
@@ -227,7 +217,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 4
+    "tasks": 2
   },
   {
     "first": "Andrea",
@@ -247,7 +237,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Eleana",
@@ -291,13 +281,13 @@
   },
   {
     "first": "Marcelo",
-    "last": "Gamma de Abreu",
+    "last": "Gama de Abreu",
     "type": "Faculty Invited Speaker",
     "track": "Big Data and Outcomes Research\nVentilation",
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 1
+    "tasks": 0
   },
   {
     "first": "Dan",
@@ -350,6 +340,16 @@
     "tasks": 0
   },
   {
+    "first": "Eleni",
+    "last": "Moka",
+    "type": "Symposium Keynote Guest",
+    "track": "Regional",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
     "first": "Gabriella",
     "last": "Iohom",
     "type": "Faculty Invited Speaker",
@@ -387,7 +387,7 @@
     "status": "Confirmed",
     "bio": "",
     "photo": "",
-    "tasks": 2
+    "tasks": 1
   },
   {
     "first": "Michael",
@@ -425,6 +425,16 @@
     "type": "Faculty Invited Speaker",
     "track": "Leadership/Education",
     "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
+    "first": "Chirojit",
+    "last": "Mukherjee",
+    "type": "Faculty Invited Speaker",
+    "track": "Cardiac anesthesia",
+    "status": "Pending",
     "bio": "",
     "photo": "",
     "tasks": 0
@@ -470,9 +480,9 @@
     "tasks": 1
   },
   {
-    "first": "Jake",
-    "last": "Beilin",
-    "type": "",
+    "first": "Dr Balavenkat",
+    "last": "Subramanian",
+    "type": "Faculty Invited Speaker",
     "track": "",
     "status": "Pending",
     "bio": "",
@@ -480,14 +490,54 @@
     "tasks": 0
   },
   {
+    "first": "Dr. Ovidiu",
+    "last": "Palea",
+    "type": "Faculty Invited Speaker",
+    "track": "pain",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 1
+  },
+  {
+    "first": "Yaakov",
+    "last": "Beilin",
+    "type": "",
+    "track": "",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
+  },
+  {
+    "first": "Luis",
+    "last": "Alberto Rodriguez Linares",
+    "type": "",
+    "track": "POCUS",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 1
+  },
+  {
     "first": "Joshua",
     "last": "Mincer",
     "type": "",
     "track": "",
-    "status": "Pending",
+    "status": "Confirmed",
     "bio": "",
     "photo": "",
     "tasks": 1
+  },
+  {
+    "first": "Rudin",
+    "last": "Domi",
+    "type": "",
+    "track": "TBC",
+    "status": "Confirmed",
+    "bio": "",
+    "photo": "",
+    "tasks": 0
   },
   {
     "first": "Vaida",
@@ -503,8 +553,8 @@
     "first": "Jacob",
     "last": "Refael",
     "type": "",
-    "track": "",
-    "status": "Pending",
+    "track": "PROF.",
+    "status": "Confirmed",
     "bio": "",
     "photo": "",
     "tasks": 0
@@ -524,37 +574,17 @@
     "last": "Cohen",
     "type": "",
     "track": "",
-    "status": "Pending",
+    "status": "Confirmed",
     "bio": "",
     "photo": "",
     "tasks": 3
   },
   {
-    "first": "Yaster",
-    "last": "Myron",
+    "first": "Meg",
+    "last": "Rosenblatt",
     "type": "",
-    "track": "ISAAC 18",
+    "track": "",
     "status": "Pending",
-    "bio": "",
-    "photo": "",
-    "tasks": 0
-  },
-  {
-    "first": "Luis",
-    "last": "Alberto Rodriguez Linares",
-    "type": "",
-    "track": "POCUS",
-    "status": "Confirmed",
-    "bio": "",
-    "photo": "",
-    "tasks": 1
-  },
-  {
-    "first": "Rudin",
-    "last": "Domi",
-    "type": "",
-    "track": "TBC",
-    "status": "Confirmed",
     "bio": "",
     "photo": "",
     "tasks": 0
