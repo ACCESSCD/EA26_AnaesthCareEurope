@@ -165,6 +165,13 @@ def count_tasks(speakers):
                     continue
                 if 1 <= len(line.split()) <= 5:
                     short_lines.append(norm(line))
+                elif ' - ' in line:
+                    # "Session Title - Name1, Name2" — extract names after the dash
+                    after_dash = line.rsplit(' - ', 1)[-1]
+                    for part in after_dash.split(','):
+                        part = part.strip()
+                        if 1 <= len(part.split()) <= 5:
+                            short_lines.append(norm(part))
 
     wb2.close()
 
