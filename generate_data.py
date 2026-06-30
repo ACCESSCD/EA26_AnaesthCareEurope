@@ -108,6 +108,8 @@ def load_speakers():
         stype = clean(row[3])
         if stype.upper() in EXCLUDE_TYPES:
             continue
+        if 'moderator' in stype.lower():
+            continue
 
         status = get_status(row)
         if status == 'Declined':
